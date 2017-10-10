@@ -1,0 +1,3 @@
+rahul,tekchandani,100000
+neha,valeja,200000
+kartik,sanu,300000
