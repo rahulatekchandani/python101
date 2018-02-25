@@ -12,5 +12,3 @@ print("File format: " + str(fformat))
 file_list = Util.readfile_list('/Users/rahul/PycharmProjects/Introductions/text_files/SampleText1.txt')
 print(file_list)
 
-file_string =
-
