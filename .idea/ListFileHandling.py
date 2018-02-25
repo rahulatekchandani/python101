@@ -8,20 +8,18 @@ contents = ['Empty list']
 try:
     with open(ifilename) as file_object :
         contents = file_object.readlines()
-        print "\n1.0 "
+        print ("\n1.0 ")
         print(contents)
 except FileNotFoundError:
-    print "File not found"
+    print ("File not found")
 
-print "\n2.0 convert list to string"
+"""Convert list to string"""
 ListToString = str(contents[0])
 print(ListToString.strip())
 
 ConvToList = ListToString.split(",")
-print "\n3.0 split function converts string to list"
 print(ConvToList)
 
-print "\n4.0 "
 grosssalary = int(ConvToList[2])
 netsalary = 0.77 * grosssalary
 line = str(ConvToList[0]) + "," + str(ConvToList[1]) + ","+ str(netsalary)
