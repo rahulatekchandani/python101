@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 
 def straight_graph(x_values,y_values):
-# plotting co-ordinates
+    # plotting co-ordinates
     plt.plot(x_values, y_values, c='red', linewidth=3)
 
-# Set chart titles and label axes
+    # Set chart titles and label axes
     plt.title("Print straight line graph",fontsize =20)
     plt.xlabel("X axis", fontsize = 10)
     plt.ylabel("Y axis", fontsize = 10)
@@ -12,7 +12,10 @@ def straight_graph(x_values,y_values):
     plt.show()
 
 def scatter_graph(x_values, y_values):
+    # plotting co-ordinates
     plt.scatter(x_values, y_values, c='red', s=50)
+
+    # Set chart titles and label axes
     plt.title("Print scatter line graph", fontsize=20)
     plt.xlabel("X axis", fontsize = 10)
     plt.ylabel("Y axis", fontsize = 10)
