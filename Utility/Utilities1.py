@@ -27,6 +27,3 @@ def readfile_list(path):
             return contents
     except FileNotFoundError:
         return ("File not found")
-
-def filelist_toString(filelist):
-    return filelist.
